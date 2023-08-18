@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.box1,
+.box2,
+.main1,
+.main2,
+.box3,
+.box4 {
+  display: flex;
+}
+#line {
+  padding: 0px 20px;
+  color: lightgrey;
+}
+.box1 i,
+.box1 p,
+.box2 i,
+.box2 p,
+.box3 i,
+.box3 p .box4 i,
+.box4 p {
+  padding: 0px 5px;
+}
+.box1 i,
+.box2 i {
+  color: #f6d600;
+}
+.box3 p,
+.box4 p,
+.box1 p,
+.box2 p {
+  color: gray;
+}
+.section {
+  height: 30px;
+}
+.main {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar-home {
+  background-color: white;
+}
+.bord {
+  border-top: 1px solid rgb(228, 228, 228);
+  padding-top: 35px;
+}
+.Form-control {
+  position: relative;
+  box-sizing: border-box;
+}
+.Form-control input {
+  width: 625px;
+  padding: 8px 0px;
+  border-radius: 30px;
+  border: 2px solid #f6d600;
+  outline: none;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.Form-control .bi-search {
+  background-color: #f6d600;
+  padding: 0px 20px;
+  padding-top: 11px;
+  padding-bottom: 7px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  right: 0px;
+}
+.e-solution {
+  text-decoration: none;
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+}
+.bad {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  margin: 0px 30px;
+}
+
+.bad .bi-suit-heart,
+.bi-bag {
+  font-size: 25px;
+  color: gray;
+}
+.bad:hover .bi-suit-heart,
+.bad:hover .bi-bag {
+  color: #f6d600;
+}
+  .icons-header {
+    display: flex;
+
+  }
+.MuiBadge-badge {
+  background-color: #f6d600;
+  color: black;
+  position: absolute;
+}
+.gift-card {
+  display: none;
+  position: relative;
+  left: 250px;
+  padding: 30px 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px gray;
+  margin-top: 5px;
+  border-top: 5px solid #f6d600;
+}
+.card-img {
+  width: 300px;
+  height: 400px;
+}
+.g-card:hover .gift-card {
+  display: block;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+.anchors {
+  text-decoration: none;
+  color: black;
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.linking{
+  display: flex;
+  gap: 40px;
+}
+.anchor-contacts{
+  padding-left: 10px;
+}
+.anchors:hover{
+  color: grey;
+}
+.offcan-btn{
+  display: none;
+}
+
+

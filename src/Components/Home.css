@@ -1,0 +1,72 @@
+.carousel-item {
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 227, 227),
+    rgb(242, 242, 242) 400px,
+    rgb(227, 227, 227) 800px
+  );
+  height: 70vh;
+
+}
+.row {
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  width: 70%;
+  color: black;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: grey;
+  font-size: 30px;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 230px;
+  border-radius: 100%;
+}
+
+.img-slider {
+  width: 100%;
+  height: auto;
+}
+
+.prize {
+  display: flex;
+  font-size: 45px;
+  font-weight: 900;
+  gap: 5px;
+  margin-left: 5px;
+}
+.btn1 {
+  background-color: #f6d600;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.btn1:hover {
+  background-color: rgba(51, 62, 72, 1);
+  color: white;
+}
+.under {
+  font-weight: 900;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.content-h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.carousel-item{
+  position: relative;
+  box-sizing: border-box;
+}
+.content-again{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
